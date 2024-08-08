@@ -12,7 +12,7 @@
     <major>true</major>
   </NeedDef>
 
-  <!--<NeedDef>
+  <NeedDef>
     <defName>PN_Need_Maintenance</defName>
     <needClass>AutomataRace.Need_Maintenance</needClass>
     <label>Maintenance</label>
@@ -21,5 +21,5 @@
     <listPriority>985</listPriority>
     <fallPerDay>0.01333</fallPerDay>
     <showForCaravanMembers>true</showForCaravanMembers>
-  </NeedDef>-->
+  </NeedDef>
 </Defs>

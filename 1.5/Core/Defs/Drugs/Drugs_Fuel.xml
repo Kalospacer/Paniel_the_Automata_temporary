@@ -75,7 +75,72 @@
     </thingCategories>
   </ThingDef>
 
+  <ThoughtDef>
+    <defName>PN_Atefuel_nopn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate PnL fuel</label>
+        <description>...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
   <!--==================================== 오토마톤 연료 효과 ====================================-->
+
+  <HediffDef>
+    <defName>PN_ateFuel</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Ate automaton fuel</label>
+    <labelNoun>Ate Automaton Fuel</labelNoun>
+    <description>...</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+        <hediffAndBodypart>
+          <li>
+            <hediff>PsychiteAddiction</hediff>
+          </li>
+          <li>
+            <hediff>FoodPoisoning</hediff>
+          </li>
+          <li>
+            <hediff>PN_deletFuel</hediff>
+          </li>
+        </hediffAndBodypart>
+        <bodyDefBlackList>
+          <li>PNBody</li>
+        </bodyDefBlackList>
+        <debug>false</debug>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PN_deletFuel</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Ate automaton fuel</label>
+    <labelNoun>Ate Automaton Fuel</labelNoun>
+    <description>...</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToNullify>
+          <li>PN_AutomatonFuel_Addiction</li>
+        </hediffToNullify>
+        <bodyDefBlackList>
+          <li>PNBody</li>
+        </bodyDefBlackList>
+      </li>
+    </comps>
+  </HediffDef>
 
   <ChemicalDef>
     <defName>PN_Chemical_Fuel</defName>

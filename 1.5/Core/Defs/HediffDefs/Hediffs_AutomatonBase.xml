@@ -60,7 +60,7 @@
   </HediffDef>
 
   <!--==================================== 오토마톤 기본 ====================================-->
-  <!--<HediffDef>
+  <HediffDef>
     <defName>PanielBaseHediff</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>Automaton base</label>
@@ -118,7 +118,7 @@
         <race>Paniel_Race</race>
       </li>
     </modExtensions>
-  </HediffDef>-->
+  </HediffDef>
 
   <!--==================================== 오토마톤 출혈 ====================================-->
   <HediffDef>

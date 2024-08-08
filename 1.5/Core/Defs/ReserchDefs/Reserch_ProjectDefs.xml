@@ -121,7 +121,7 @@
 
   <!--==================================== 수리 키트 ====================================-->
 
-  <!--<ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>PNRP_SelfRepairKit</defName>
     <label>self repair kit</label>
     <description>Research how to combine healer mech serum with repair kits.</description>
@@ -135,7 +135,7 @@
     </prerequisites>
     <researchViewX>2.0</researchViewX>
     <researchViewY>1.4</researchViewY>
-  </ResearchProjectDef>-->
+  </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>PNRP_ResurrectModule</defName>

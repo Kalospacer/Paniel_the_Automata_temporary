@@ -7,6 +7,21 @@
     <iconPath>UI/Icons/PNCT_PnL</iconPath>
   </ThingCategoryDef>
 
+    <!--==================================== 미완성 오토마톤 ====================================-->
+    <ThingDef ParentName="UnfinishedBase">
+      <defName>UnfinishedAutomaton</defName>
+      <label>unfinished automaton</label>
+      <description>An unfinished automaton.</description>
+      <statBases>
+        <Flammability>0.5</Flammability>
+      </statBases>
+      <graphicData>
+        <texPath>Things/Item/UnfinishedAutomaton</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <stuffCategories Inherit="false" />
+    </ThingDef>
+
   <!--==================================== 오토마톤 가죽 ====================================-->
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Automaton</defName>
@@ -296,4 +311,154 @@
 
     </thingSetMakerTags>
   </ThingDef>
+  
+  <!--==================================== 수리키트 ====================================-->
+  <ThingCategoryDef>
+    <defName>PNKit</defName>
+    <label>Repair kit</label>
+    <parent>PN_AutomatonCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PNRepairkit</iconPath>
+  </ThingCategoryDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_RepairKit</defName>
+    <label>automaton repair kit</label>
+    <description>A kit containing various materials to repair the automaton.</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNRepairkit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <stackLimit>25</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.7</Flammability>
+      <WorkToMake>700</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>PNKit</li>
+    </thingCategories>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>30</Steel>
+      <Chemfuel>10</Chemfuel>
+      <Leather_Automaton>20</Leather_Automaton>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PNRP_Production</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <comps>
+
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+
+  <!--==================================== 자가 수리 키트 ====================================-->
+  <ThingDef ParentName="MechSerumBase">
+    <defName>PN_SelfRepairKit</defName>
+    <label>self repair kit</label>
+    <description>Repair kit combined with healer mech serum. It can be used alone without an operator, and the user can self-repair.</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNSelfRepairkit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <stackLimit>25</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <statBases>
+      <Mass>2</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToMake>1500</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>PNKit</li>
+    </thingCategories>
+    <costList>
+      <MechSerumHealer>1</MechSerumHealer>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>15</Steel>
+      <Chemfuel>2</Chemfuel>
+      <Leather_Automaton>5</Leather_Automaton>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PNRP_SelfRepairKit</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use self repair kit</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectRepairKit">
+        <thingDefs>
+          <li>Paniel_Race</li>
+        </thingDefs>
+        <blockUnnecessaryUse>false</blockUnnecessaryUse>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_AdministerSelfRepairKit</defName>
+    <label>administer self repair kit</label>
+    <description>Administer a self repair kit.</description>
+    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <jobString>Administering self repair kit.</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>600</workAmount>
+    <isViolation>false</isViolation>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_SelfRepairKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PN_SelfRepairKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Paniel_Race</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>
