@@ -46,8 +46,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>PN_Test1</li>
-					<li>PN_Test2</li>
+					<li>Paniel_Story_Start</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -78,8 +77,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>PN_Test1</li>
-					<li>PN_Test2</li>
+					<li>Paniel_Story_Testsubject</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>

@@ -20,10 +20,6 @@
         </li>
 
         <!-- Player starting stuff spawn method-->
-        <li Class="ScenPart_Naked">
-          <def>Naked</def>
-          <context>PlayerStarter</context>
-        </li>
 
         <li Class="ScenPart_PlayerPawnsArriveMethod">
           <def>PlayerPawnsArriveMethod</def>
@@ -32,10 +28,10 @@
         </li>
 
         <!-- Starting research -->
-        <!--<li Class="ScenPart_StartingResearch">
+        <li Class="ScenPart_StartingResearch">
           <def>StartingResearch</def>
           <project>PNRP_Production</project>
-        </li>-->
+        </li>
 
         <!-- Game start dialog -->
         <li Class="ScenPart_GameStartDialog">
@@ -57,7 +53,7 @@ from. PnL Industry Research Department.</text>
         </li>
 
         <!-- Player starting things -->
-        <!--<li Class="ScenPart_StartingThing_Defined">
+        <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>PN_BrainCasing</thingDef>
           <count>3</count>
@@ -79,7 +75,7 @@ from. PnL Industry Research Department.</text>
           <def>StartingThing_Defined</def>
           <thingDef>PN_Shovel</thingDef>
           <stuff>Steel</stuff>
-        </li>-->
+        </li>
 
         <!-- Disable Incident -->
         <li Class="ScenPart_DisableIncident">

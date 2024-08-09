@@ -17,18 +17,18 @@
     <backstoryCategories>
       <li>Offworld</li>
     </backstoryCategories>
-    <allowedCultures>
+    <!--<allowedCultures>
       <li>PN_PnLindistryCulture</li>
     </allowedCultures>
     <allowedMemes>
-      <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
     </allowedMemes>
     <requiredMemes>
-      <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
@@ -37,7 +37,7 @@
     <disallowedPrecepts>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-    </disallowedPrecepts>
+    </disallowedPrecepts>-->
     <melaninRange>0</melaninRange>
   </FactionDef>
 
@@ -71,18 +71,18 @@
     <techLevel>Spacer</techLevel>
     <fixedName>PnL Logistics</fixedName>
     <settlementNameMaker>NamerSettlementPnLSub</settlementNameMaker>
-    <allowedCultures>
+    <!--<allowedCultures>
       <li>PN_PnLindistryCulture</li>
     </allowedCultures>
     <allowedMemes>
-      <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
     </allowedMemes>
     <requiredMemes>
-      <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">PN_Structure</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
@@ -91,7 +91,7 @@
     <disallowedPrecepts>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-    </disallowedPrecepts>
+    </disallowedPrecepts>-->
     <melaninRange>0</melaninRange>
     <backstoryCategories>
       <li>Offworld</li>
@@ -335,11 +335,11 @@
     <defName>PN_PnLindistryCulture</defName>
     <label>PnL indistry</label>
     <description>The corporate culture of PnL Industry.</description>
-    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeo_PnLindistry</ideoNameMaker>
-    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeity_PnLindistry</deityNameMaker>
-    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMaker_PnLindistry</deityTypeMaker>
-    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_PnLindistry</leaderTitleMaker>
-    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
     <allowedPlaceTags>
       <li>OriginSpacer</li>
     </allowedPlaceTags>
@@ -364,7 +364,7 @@
     </styleItemTags>
   </CultureDef>
 
-  <RulePackDef>
+  <!--<RulePackDef>
     <defName>NamerIdeo_PnLindistry</defName>
     <rulePack>
       <rulesStrings>
@@ -400,5 +400,5 @@
         <li>r_leaderTitle->CEO</li>
       </rulesStrings>
     </rulePack>
-  </RulePackDef>
+  </RulePackDef>-->
 </Defs>

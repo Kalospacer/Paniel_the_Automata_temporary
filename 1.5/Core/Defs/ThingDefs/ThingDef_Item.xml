@@ -89,7 +89,7 @@
 
     </tradeTags>
     <tradeability>Buyable</tradeability>
-    <!--<recipeMaker>
+    <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -102,7 +102,7 @@
       <recipeUsers>
         <li>PN_AutomatonBench</li>
       </recipeUsers>
-    </recipeMaker>-->
+    </recipeMaker>
     <comps>
 
     </comps>
@@ -171,7 +171,7 @@
     <comps>
 
     </comps>
-    <!--<recipeMaker>
+    <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -184,7 +184,7 @@
       <recipeUsers>
         <li>PN_AutomatonBench</li>
       </recipeUsers>
-    </recipeMaker>-->
+    </recipeMaker>
   </ThingDef>
 
   <!--<ThingDef ParentName="BodyPartBase">
