@@ -91,4 +91,32 @@
     <damageEffecter>Damage_HitMechanoid</damageEffecter>
     <isOrganic>true</isOrganic>
   </FleshTypeDef>
+
+    <!--==================================== 시체 설정 ====================================-->
+    <AutomataRace.ThingDefInjectDef>
+      <defName>Comp_CorpseSelfDestruct_Inject</defName>
+      <conditions>
+        <li Class="AutomataRace.ThingDefInject.IsDefNameEqual">
+          <defName>Corpse_Paniel_Race</defName>
+        </li>
+      </conditions>
+      <comps>
+        <li Class="AutomataRace.CompProperties_SelfResurrect">
+          <resurrectDelayTick>200</resurrectDelayTick>
+          <hediffCondition>PN_ResurrectModule</hediffCondition>
+          <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+        </li>
+  
+        <li Class="AutomataRace.CompProperties_ExplosiveInstant">
+          <explosiveRadius>1.9</explosiveRadius>
+          <explosiveDamageType>Flame</explosiveDamageType>
+          <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+          <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+          <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+          <wickTicks>200~750</wickTicks>
+          <awfulExplosiveMultiplier>5.0</awfulExplosiveMultiplier>
+          <poorExplosiveMultiplier>2.0</poorExplosiveMultiplier>
+        </li>
+      </comps>
+    </AutomataRace.ThingDefInjectDef>
 </Defs>

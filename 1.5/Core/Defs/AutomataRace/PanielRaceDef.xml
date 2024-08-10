@@ -294,12 +294,185 @@
 			</styleSettings>
 			<thoughtSettings>
 				<replacerList>
-
+				  <!--오토마톤사망실종-->
+				  <li>
+					<original>PN_KnowColonyAutomatonDied</original>
+					<replacer>PN_KnowColonyAutomatonDiedforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonWithGoodOpinionDied</original>
+					<replacer>PN_AutomatonWithGoodOpinionDiedforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonWithBadOpinionDied</original>
+					<replacer>PN_AutomatonWithBadOpinionDiedforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_ColonyAutomatonLost</original>
+					<replacer>PN_ColonyAutomatonLostforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonWithGoodOpinionLost</original>
+					<replacer>PN_AutomatonWithGoodOpinionLostforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonWithBadOpinionLost</original>
+					<replacer>PN_AutomatonWithBadOpinionLostforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_WitnessedDestroyedAlly</original>
+					<replacer>PN_WitnessedDestroyedAllyforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonBanished</original>
+					<replacer>PN_AutomatonBanishedforPN</replacer>
+				  </li>
+				  <li>
+					<original>PN_AutomatonBanishedToDie</original>
+					<replacer>PN_AutomatonBanishedToDieforPN</replacer>
+				  </li>
+		
+				  <!--음식-->
+				  <li>
+					<original>AteLavishMeal</original>
+					<replacer>PN_AteLavishMeal</replacer>
+				  </li>
+				  <li>
+					<original>AteFineMeal</original>
+					<replacer>PN_AteFineMeal</replacer>
+				  </li>
+		
+				  <!--메카클러스터-->
+				  <li>
+					<original>DefeatedMechCluster</original>
+					<replacer>PN_DefeatedMechCluster</replacer>
+				  </li>
+		
+				  <!--이데올로기-->
+				  <!--<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>PN_OfficerCommandThought</original>
+				  </li>-->
 				</replacerList>
 				<cannotReceiveThoughts>
-
+				  <!--<li></li>-->
+				  <!--memory death-->
+				  <li>KnowGuestExecuted</li>
+				  <li>KnowPrisonerDiedInnocent</li>
+				  <!--memory eating-->
+				  <li>AteRawFood</li>
+				  <li>AteNutrientPasteMeal</li>
+				  <!--memory misc-->
+				  <li>AteWithoutTable</li>
+				  <li>SleepDisturbed</li>
+				  <li>SleptOutside</li>
+				  <li>SleptOnGround</li>
+				  <li>SleptInCold</li>
+				  <li>SleptInHeat</li>
+				  <li>KnowPrisonerSold</li>
+				  <li>ReleasedHealthyPrisoner</li>
+				  <li>KnowGuestOrganHarvested</li>
+				  <li>SoakingWet</li>
+				  <li>ButcheredHumanlikeCorpse</li>
+				  <li>KnowButcheredHumanlikeCorpse</li>
+				  <li>ButcheredHumanlikeCorpseOpinion</li>
+				  <li>ObservedLayingCorpse</li>
+				  <li>ObservedLayingRottingCorpse</li>
+				  <li>DeniedJoining</li>
+				  <li>PrisonerBanishedToDie</li>
+				  <!--memory roomstat-->
+				  <li>SleptInBarracks</li>
+				  <!--memory social-->
+				  <!--situation general-->
+				  <li>EnvironmentDark</li>
+				  <li>Sick</li>
+				  <li>EnvironmentCold</li>
+				  <li>EnvironmentHot</li>
+				  <!--situation need-->
+				  <li>NeedRoomSize</li>
+				  <li>NeedOutdoors</li>
+				  <li>DrugDesireFascination</li>
+				  <li>DrugDesireFascinationSatisfied</li>
+				  <li>DrugDesireInterest</li>
+				  <li>DrugDesireInterestSatisfied</li>
+				  <!--situation roomstat-->
+				  <li>PrisonBarracks</li>
+				  <!--situation social-->
+				  <li>Incestuous</li>
+				  <li>Disfigured</li>
+				  <li>HardWorkerVsLazy</li>
+				  <li>TeetotalerVsChemicalInterest</li>
+				  <li>TeetotalerVsAddict</li>
+				  <li>ChemicalInterestVsTeetotaler</li>
+				  <li>Drunk</li>
+				  <li>Pretty</li>
+				  <li>Ugly</li>
+				  <li>AnnoyingVoice</li>
+				  <li>CreepyBreathing</li>
+				  <li>Man</li>
+				  <li>Woman</li>
+				  <li>TranshumanistAppreciation</li>
+				  <li>BodyPuristDisgust</li>
+				  <li>ButcheredHumanlikeCorpseOpinion</li>
+				  <li>AteRawHumanlikeMeat</li>
+				  <li>KilledColonyAnimal</li>
+				  <li>NotBondedAnimalMaster</li>
+				  <!--situation special-->
+				  <li>SharedBed</li>
+				  <li>Naked</li>
+				  <li>Pain</li>
+				  <li>Joywire</li>
+				  <li>DoingPassionateWork</li>
+				  <!--situation trait-->
+				  <li>MasochistPain</li>
+				  <li>ProsthophileNoProsthetic</li>
+				  <li>ProsthophileHappy</li>
+				  <li>ProsthophobeUnhappy</li>
+				  <li>ClothedNudist</li>
+				  <li>HappyNude</li>
+				  <li>Greedy</li>
+				  <li>Jealous</li>
+				  <li>Ascetic</li>
+				  <!--Misc-->
+				  <li>PN_Atefuel_nopn</li>
+				  <li>PsychiteWithdrawal</li>
+				  <li>YayoHigh</li>
+				  <li>PsychiteTeaHigh</li>
+				  <li>FlakeHigh</li>
+				  <li>GoJuiceHigh</li>
+				  <li>GoJuiceWithdrawal</li>
+		
+				  <!--[Royalty]-->
+				  <!--<li MayRequire="Ludeon.RimWorld.Royalty"></li>-->
+		
+				  <!--[Ideology]-->
+				  <!--<li MayRequire="Ludeon.RimWorld.Ideology"></li>-->
+		
+				  <!--Thoughts_IdeoBuilding-->
+				  <!--Thoughts_IdeoRaiding-->
+				  <!--Thoughts_IdeoRole-->
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleLost</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleEmpty</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentStandard</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentDisapproved</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentHorrible</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentAbhorrent</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
+				  <!--Thoughts_Memory_Social-->
+				  <!--Thoughts_Memory_Terror-->
+				  <li MayRequire="Ludeon.RimWorld.Ideology">ObservedTerror</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">ObservedGibbetCage</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">ObservedSkullspike</li>
+				  <!--Thoughts_Ritual-->
+				  <!--Thoughts_Ritual_Quality-->
+				  <!--Thoughts_Situational-->
+				  <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
+		
+				  <!--Misc-->
+				  <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>
+				  <li MayRequire="Ludeon.RimWorld.Ideology">AgeReversalDemanded</li>
 				</cannotReceiveThoughts>
-			</thoughtSettings>
+			  </thoughtSettings>
 			<raceRestriction>
 				<!--착용 장비 관련-->
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
@@ -309,15 +482,111 @@
 				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
 				<apparelList>
 
-				</apparelList>
-				<whiteApparelList>
+					<!--[Royalty]-->
+					<!--<li MayRequire="Ludeon.RimWorld.Royalty"></li>-->
+					<!--[Ideology]-->
+					<!--<li MayRequire="Ludeon.RimWorld.Ideology"></li>-->
+					<!--[Biotech]-->
+					<!--<li MayRequire="Ludeon.RimWorld.Biotech"></li>-->
+		  
+					<!--의상-->
+					<li>PN_ApparelBasic</li>
+					<li>PN_ApparelBasicHat</li>
+		  
+					<li>PN_ApparelCape</li>
+		  
+					<li>PN_ApparelMilitia</li>
+					<li>PN_ApparelMilitiaHat</li>
+		  
+					<li>PN_ApparelSoldier</li>
+					<li>PN_ApparelSoldierHat</li>
+		  
+					<li>PN_ApparelWorker</li>
+					<li>PN_ApparelWorkerHat</li>
+		  
+					<li>PN_ApparelMaid</li>
+					<li>PN_ApparelMaidHat</li>
+		  
+					<li>PN_ApparelRoyalguard</li>
+					<li>PN_ApparelRoyalguardHat</li>
+		  
+					<li>PN_ApparelRoyalmeister</li>
+					<li>PN_ApparelRoyalmeisterHat</li>
+					<li>PN_ApparelRoyalmeisterHatWithMonocle</li>
+					<li>PN_ApparelRoyalmeisterMonocle</li>
+		  
+					<li>PN_ApparelRoyalmaid</li>
+					<li>PN_ApparelRoyalmaidHat</li>
+		  
+					<li>PN_EliteSecurityUniform</li>
+					<li>PN_EliteSecurityHat</li>
+		  
+					<!--모듈-->
+					<li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
+		  
+					<li>PN_RapidFireModule</li>
+					<li>PN_CQCModule</li>
+					<li>PN_MiningModule</li>
+					<li>PN_ConstructionModule</li>
+					<li>PN_CraftingModule</li>
+					<li>PN_PlantsModule</li>
+					<li>PN_CookingModule</li>
+					<li>PN_NursingModule</li>
+		  
+					<li MayRequire="Ludeon.RimWorld.Biotech">PN_ArrayModule</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PN_IntegratorModule</li>
+		  
+				  </apparelList>
+				  <whiteApparelList>
 
-				</whiteApparelList>
-				<weaponList>
-
-				</weaponList>
+					<!--바닐라-->
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_FirefoampopPack</li>
+					<li>OrbitalTargeterBombardment</li>
+					<li>OrbitalTargeterPowerBeam</li>
+					<li>TornadoGenerator</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+		  
+					<!--eccentric-->
+					<li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_PhasedShieldBelt</li>
+					<li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_ModulatedShieldBelt</li>
+					<li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_LayeredShieldBelt</li>
+		  
+				  </whiteApparelList>
+				  <weaponList>
+		  
+					<li>PN_Chainsword</li>
+					<li>PN_Chainlongsword</li>
+					<li>PN_TwinPistol</li>
+					<li>PN_RoyalRifle</li>
+					<li>PN_RoyalRifle_Point</li>
+					<li>PN_RoyalHeavySlug</li>
+					<li>PN_RoyalMachinegun</li>
+					<li>PN_RoyalMachinegun_Mount</li>
+					<li>PN_RoyalMachinegun_Overheated</li>
+					<li>PN_RoyalLSW</li>
+					<li>PN_RoyalLSW_IE</li>
+					<li>PN_RoyalLSW_EMP</li>
+					<li>PN_RoyalLSW_Smoke</li>
+					<li>PN_RoyalLSW_FF</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalSaber_Bladelink</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">PN_Chainsword_Bladelink</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalHammer_Bladelink</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">PN_StormLance_Bladelink</li>
+		  
+				  </weaponList>
 				<foodList>
 					<li>PN_AutomatonFuel</li>
+					<li>PN_antibiotics</li>
 				</foodList>
 				<whiteGeneTags>
 
@@ -549,11 +818,14 @@
 			<Leather_Automaton>25</Leather_Automaton>
 		</butcherProducts>
 		<recipes>
-
-		</recipes>
-		<comps>
-
-		</comps>
+			<li>Anesthetize</li>
+			<li>PN_Disassemble</li>
+			<li>PN_Repair</li>
+			<li>PN_Maintenance</li>
+		  </recipes>
+		  <comps>
+			<li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
+		  </comps>
 		<modExtensions></modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 

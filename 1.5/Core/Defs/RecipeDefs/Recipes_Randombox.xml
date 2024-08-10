@@ -115,8 +115,8 @@
 
   <RecipeDef>
     <defName>PN_Make_AutomatonSoldier</defName>
-    <label>make automaton (Soldier)</label>
-    <description>make automaton (Soldier)</description>
+    <label>make packaged automaton (Soldier)</label>
+    <description>make packaged automaton (Soldier)</description>
     <jobString>Making automaton.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -185,8 +185,8 @@
 
   <RecipeDef>
     <defName>PN_Make_AutomatonEngineer</defName>
-    <label>make automaton (Engineer)</label>
-    <description>make automaton (Engineer)</description>
+    <label>make packaged automaton (Engineer)</label>
+    <description>make packaged automaton (Engineer)</description>
     <jobString>Making automaton.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -255,8 +255,8 @@
 
   <RecipeDef>
     <defName>PN_Make_AutomatonDomestic</defName>
-    <label>make automaton (Domestic)</label>
-    <description>make automaton (Domestic)</description>
+    <label>make packaged automaton (Domestic)</label>
+    <description>make packaged automaton (Domestic)</description>
     <jobString>Making automaton.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
