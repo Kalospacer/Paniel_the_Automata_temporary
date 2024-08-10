@@ -99,7 +99,7 @@
         <countRange>-3~1</countRange>
       </li>
       <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_Category">
-        <!--<categoryDef>PN_WeaponsMeleeBladelink</categoryDef>-->
+        <categoryDef>PN_WeaponsMeleeBladelink</categoryDef>
         <thingDefCountRange>1</thingDefCountRange>
         <countRange>-4~1</countRange>
       </li>
