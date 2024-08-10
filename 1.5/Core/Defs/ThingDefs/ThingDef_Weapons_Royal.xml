@@ -61,7 +61,7 @@
       </skillRequirements>
     </recipeMaker>
     <comps>
-      <!--<li Class="SYS.CompProperties_WeaponExtention">
+      <li Class="SYS.CompProperties_WeaponExtention">
         <littleDown>True</littleDown>
         <northOffset>
           <position>(0.2,0,0.25)</position>
@@ -79,7 +79,7 @@
           <position>(-0.15,-0.3,0.2)</position>
           <angle>45</angle>
         </westOffset>
-      </li>-->
+      </li>
     </comps>
     <weaponClasses>
 
@@ -287,7 +287,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -314,7 +314,7 @@
           <angle>30</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -336,7 +336,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -413,7 +413,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -440,7 +440,7 @@
           <angle>30</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -462,7 +462,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -558,7 +558,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalHeavyslug_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -584,7 +584,7 @@
           <position>(0.15,-0.3,0.05)</position>
           <angle>-70</angle>
         </westOffset>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -679,7 +679,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -706,7 +706,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -728,7 +728,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -801,7 +801,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -828,7 +828,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -859,7 +859,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -932,7 +932,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -959,7 +959,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -979,7 +979,7 @@
           <iconPath>UI/Commands/MG_cooling</iconPath>
           <iconSize>1</iconSize>
         </revertData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1066,7 +1066,7 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1093,7 +1093,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -1142,7 +1142,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1217,7 +1217,7 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1244,7 +1244,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -1293,7 +1293,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1368,7 +1368,7 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1395,7 +1395,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -1444,7 +1444,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1519,7 +1519,7 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1546,7 +1546,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -1595,7 +1595,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1670,7 +1670,7 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1697,7 +1697,7 @@
           <angle>-70</angle>
         </westOffset>
       </li>
-      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+      <li Class="ItemFormChange_Roo.CompPropertiesFormChange">
         <sharedComps>
           <li>RimWorld.CompProperties_Styleable</li>
           <li>RimWorld.CompStyleable</li>
@@ -1746,7 +1746,7 @@
             <iconSize>1</iconSize>
           </li>
         </transformData>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>

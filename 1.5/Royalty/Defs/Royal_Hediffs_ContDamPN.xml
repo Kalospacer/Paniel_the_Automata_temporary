@@ -49,12 +49,12 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>cut scar</permanentLabel>
       </li>
-      <!--<li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ChainCutDamage_ConMono</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>4</damageAmount>
         <endTicks>18</endTicks>
-      </li>-->
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
@@ -88,12 +88,12 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>permanent crack</permanentLabel>
       </li>
-      <!--<li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ChainCrackDamage_ConMono</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>2</damageAmount>
         <endTicks>12</endTicks>
-      </li>-->
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.01</painPerSeverity>
@@ -155,12 +155,12 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>mangled scar</permanentLabel>
       </li>
-      <!--<li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ElectricalBurnDamage_Con</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>4</damageAmount>
         <endTicks>18</endTicks>
-      </li>-->
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
@@ -182,12 +182,12 @@
         <labelTendedWellInner>tended</labelTendedWellInner>
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
-      <!--<li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ElectricalBurnDamage_Con</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>4</damageAmount>
         <endTicks>18</endTicks>
-      </li>-->
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
@@ -283,12 +283,12 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>stab scar</permanentLabel>
       </li>
-      <!--<li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ElectricalBurnDamage_Con</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>4</damageAmount>
         <endTicks>12</endTicks>
-      </li>-->
+      </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
