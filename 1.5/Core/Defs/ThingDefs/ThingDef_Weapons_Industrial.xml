@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ToolCapacityDef>
-    <defName>PN_ChainCutTool</defName>
-    <label>chainsword cut</label>
-  </ToolCapacityDef>
   
   <!--==================================== 베이스 ====================================-->
   <ThingDef Abstract="True" Name="PN_BaseWeapon">

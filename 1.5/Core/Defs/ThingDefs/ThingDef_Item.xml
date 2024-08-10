@@ -187,7 +187,7 @@
     </recipeMaker>
   </ThingDef>
 
-  <!--<ThingDef ParentName="BodyPartBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>PN_BrainCasingAntigrain</defName>
     <label>Antigrain core</label>
     <description>A brain core used to Railgun.</description>
@@ -245,7 +245,7 @@
         <li>PN_AutomatonBench</li>
       </recipeUsers>
     </recipeMaker>
-  </ThingDef>-->
+  </ThingDef>
 
   <!--==================================== 로열 부품 ====================================-->
   <ThingDef ParentName="ResourceBase">
