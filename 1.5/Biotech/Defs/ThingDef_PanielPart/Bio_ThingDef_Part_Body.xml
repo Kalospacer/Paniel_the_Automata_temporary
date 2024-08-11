@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--<ThingDef Name="PN_PartBase_Body" ParentName="PN_PartBase" Abstract="True">
+    <stackLimit>2</stackLimit>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Parts</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+  </ThingDef>-->
+
+  <ThingDef ParentName="PN_BodyPartRoyalBase">
+    <defName>DetoxifierOilFilter</defName>
+    <label>detoxifier Oil Filter</label>
+    <description>An advanced Oil Filter. Using PNL Industry technology, it can rapidly remove a vast range of toxins from the fuel, making it effective against environmental toxins, venoms, and injected poisons.[CAUTION]\nInstall need PNL certified Engineer.Unauthorized Install will cause loss warranty</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallDetoxifierOilFilter</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <MarketValue>1080</MarketValue>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>ToxFiltration</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Fuel>1</PN_Fuel>
+    </costList>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_AddedBodyPartBase">
+    <defName>DetoxifierOilFilter</defName>
+    <label>detoxifier Oil Filter</label>
+    <labelNoun>a detoxifier oil filter</labelNoun>
+    <description>An advanced Oil Filter. Using PNL Industry technology, it can rapidly remove a vast range of toxins from the fuel, making it effective against environmental toxins, venoms, and injected poisons.</description>
+    <descriptionHyperlinks>
+      <ThingDef>DetoxifierOilFilter</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>DetoxifierOilFilter</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.5</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+    <defName>InstallDetoxifierOilFilter</defName>
+    <label>install detoxifier Oil Filter</label>
+    <description>Install a detoxifier oil filter.</description>
+    <descriptionHyperlinks>
+      <ThingDef>DetoxifierOilFilter</ThingDef>
+      <HediffDef>DetoxifierOilFilter</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing detoxifier oil filter.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DetoxifierOilFilter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DetoxifierOilFilter</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>PNKidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>DetoxifierOilFilter</addsHediff>
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+  </RecipeDef>
+</Defs>
