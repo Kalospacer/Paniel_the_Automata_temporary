@@ -7,7 +7,7 @@
     <labelNoun>a detoxifier oil filter</labelNoun>
     <description>An advanced Oil Filter. Using PNL Industry technology, it can rapidly remove a vast range of toxins from the fuel, making it effective against environmental toxins, venoms, and injected poisons.</description>
     <descriptionHyperlinks>
-      <ThingDef>DetoxifierOilFilter</ThingDef>
+      <ThingDef>DetoxifierKidney</ThingDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>DetoxifierKidney</spawnThingOnRemoved>
     <addedPartProps>
