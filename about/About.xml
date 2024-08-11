@@ -6,6 +6,7 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">Icon/Paniel_Logi</modIconPath>
 	<description>
 Paniel the Automata
 

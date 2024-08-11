@@ -483,6 +483,9 @@
       </li>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
         <hediffToApply>PN_SyncGood_Testsubject</hediffToApply>
+        <hediffToNullify>
+          <li>PN_Learning_Limit_System</li>
+        </hediffToNullify>
         <bodyDef>PNBody</bodyDef>
       </li>
     </comps>

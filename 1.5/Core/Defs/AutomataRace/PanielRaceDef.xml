@@ -268,8 +268,12 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
-				<body>Paniel/Body/</body>
-				<head>Paniel/Heads/PNHead/</head>
+				<body>
+					<path>Paniel/Body/Naked_Female</path>
+				</body>
+				<head>
+					<path>Paniel/Heads/PNHead/PNHead1</path>
+				</head>
 				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 			</graphicPaths>
 			<styleSettings>

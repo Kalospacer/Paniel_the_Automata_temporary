@@ -3,9 +3,11 @@
 	
 	<AlienRace.AlienBackstoryDef Name="BasePanielBackStory" Abstract="True">
 		<forcedHediffs>
+			<li>PanielBaseHediff</li>
 			<li>PN_Immune_System</li>
 			<li>PN_Learning_Limit_System</li>
 			<li>PN_AutomatonFuel_Addiction</li>
+			<li>PN_Maintenance</li>
 		</forcedHediffs>
 		<forcedTraitsChance>
 			<li>
