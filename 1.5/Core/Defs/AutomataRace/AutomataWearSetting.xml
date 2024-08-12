@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AutomataWearSetting.WearSettingDef>
+  <WearSetting.WearSettingDef>
     <defName>PN_WearSetting_OfficerModule</defName>
     <targetRaces>
       <li>Paniel_Race</li>
@@ -342,5 +342,5 @@
       </li>
 
     </wearSetting>
-  </AutomataWearSetting.WearSettingDef>
+  </WearSetting.WearSettingDef>
 </Defs>
