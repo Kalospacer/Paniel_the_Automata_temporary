@@ -89,7 +89,7 @@
     <!--==================================== 전투형 일반 상자 ====================================-->
     <ThingDef ParentName="BasePackagedAutomaton">
       <defName>Packaged_AutomatonSoldier</defName>
-      <label>PnL automaton™ (Combat)</label>
+      <label>PnL automaton (Combat)</label>
       <description>A box containing a combat model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nPoor : 0.39%\nNormal : 15.79%\nGood : 54.28%\nExcellent : 27.40%\nMasterwork : 2.14%</description>
       <statBases>
   
@@ -134,7 +134,7 @@
     <!--==================================== 제작형 일반 상자 ====================================-->
     <ThingDef ParentName="BasePackagedAutomaton">
       <defName>Packaged_AutomatonWorker</defName>
-      <label>PnL automaton™ (Engineer)</label>
+      <label>PnL automaton (Engineer)</label>
       <description>A box containing a engineer model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nPoor : 0.39%\nNormal : 15.79%\nGood : 54.28%\nExcellent : 27.40%\nMasterwork : 2.14%</description>
       <statBases>
   
@@ -179,7 +179,7 @@
     <!--==================================== 가정형 일반 상자 ====================================-->
     <ThingDef ParentName="BasePackagedAutomaton">
       <defName>Packaged_AutomatonMaid</defName>
-      <label>PnL automaton™ (Domestic)</label>
+      <label>PnL automaton (Domestic)</label>
       <description>A box containing a domestic model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nPoor : 0.39%\nNormal : 15.79%\nGood : 54.28%\nExcellent : 27.40%\nMasterwork : 2.14%</description>
       <statBases>
   
