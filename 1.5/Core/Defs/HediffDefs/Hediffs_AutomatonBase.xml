@@ -12,13 +12,6 @@
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
-    <disablesNeeds>
-      <li>Outdoors</li>
-      <li>DrugDesire</li>
-      <li>RoomSize</li>
-      <li>Comfort</li>
-      <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
-    </disablesNeeds>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
@@ -78,6 +71,13 @@
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <disablesNeeds>
+      <li>Outdoors</li>
+      <li>DrugDesire</li>
+      <li>RoomSize</li>
+      <li>Comfort</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+    </disablesNeeds>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
@@ -89,11 +89,7 @@
           <InjuryHealingFactor>0</InjuryHealingFactor>
           <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
         </statFactors>
-      </li>
-    </stages>
-    <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
-        <hediffToNullify>
+        <makeImmuneTo>
           <li>Carcinoma</li>
           <li>BadBack</li>
           <li>Frail</li>
@@ -115,10 +111,10 @@
           <li>GoJuiceTolerance</li>
           <li>Pregnant</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">PregnantHuman</li>
-        </hediffToNullify>
-        <showMessage>true</showMessage>
-        <nullifyKey>PN_HediffNullifier</nullifyKey>
+        </makeImmuneTo>
       </li>
+    </stages>
+    <comps>
     </comps>
     <modExtensions>
       <li Class="YORHG.HediffDefModExtension">

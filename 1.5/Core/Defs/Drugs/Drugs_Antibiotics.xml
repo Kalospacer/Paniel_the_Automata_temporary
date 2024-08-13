@@ -39,7 +39,7 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>PN_AB_Bridge</hediffDef>
+          <hediffDef>PN_AB_Effect</hediffDef>
           <severity>1</severity>
         </li>
       </outcomeDoers>
@@ -76,7 +76,7 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+      <!--<li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
         <hediffAndBodypart>
           <li>
             <hediff>PN_ateFuel</hediff>
@@ -86,7 +86,7 @@
           </li>
         </hediffAndBodypart>
         <debug>false</debug>
-      </li>
+      </li>-->
     </comps>
   </HediffDef>
 
@@ -100,13 +100,13 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+      <!--<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
         <hediffToApply>PN_AB_Effect</hediffToApply>
         <bodyDefWhiteList>
           <li>PNBody</li>
         </bodyDefWhiteList>
         <debug>false</debug>
-      </li>
+      </li>-->
     </comps>
   </HediffDef>
 

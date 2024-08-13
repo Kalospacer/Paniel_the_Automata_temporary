@@ -36,11 +36,11 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
-      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+      <!--<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
           <li>PN_ModuleUnstable_Industrial</li>
         </triggeredHediff>
-      </li>
+      </li>-->
     </comps>
     <isBad>false</isBad>
   </HediffDef>
@@ -49,11 +49,11 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
-      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+      <!--<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
           <li>PN_ModuleUnstable_Spacer</li>
         </triggeredHediff>
-      </li>
+      </li>-->
     </comps>
     <isBad>false</isBad>
   </HediffDef>
@@ -87,7 +87,7 @@
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+      <!--<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
         <hediffToNullify>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommand</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdvice</li>
@@ -98,7 +98,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQC</li>
         </hediffToNullify>
         <showMessage>false</showMessage>
-      </li>
+      </li>-->
     </comps>
     <stages>
 
@@ -117,7 +117,7 @@
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+      <!--<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
         <hediffToNullify>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommand</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdvice</li>
@@ -128,7 +128,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQC</li>
         </hediffToNullify>
         <showMessage>false</showMessage>
-      </li>
+      </li>-->
     </comps>
     <stages>
 
