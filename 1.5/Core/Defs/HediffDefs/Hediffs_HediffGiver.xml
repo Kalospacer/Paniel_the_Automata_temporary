@@ -15,6 +15,10 @@
         <hediff>PN_Overheating</hediff>
       </li>
 
+      <li Class="AutomataRace.HediffGiver_Joy">
+        <hediff>Paniel_Joy</hediff>
+      </li>
+
       <li Class="HediffGiver_Birthday">
         <hediff>Dementia</hediff>
         <partsToAffect>
