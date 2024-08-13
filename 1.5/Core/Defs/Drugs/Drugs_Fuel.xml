@@ -43,8 +43,28 @@
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <chairSearchRadius>25</chairSearchRadius>
       <outcomeDoers>
-
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PN_ateFuel</hediffDef>
+          <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PsychiteAddiction</hediffDef>
+          <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FoodPoisoning</hediffDef>
+          <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PN_deletFuel</hediffDef>
+          <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
       </outcomeDoers>
+      <tasteThought>PN_Atefuel_nopn</tasteThought>
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
@@ -100,7 +120,7 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+      <!--<li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
         <hediffAndBodypart>
           <li>
             <hediff>PsychiteAddiction</hediff>
@@ -116,7 +136,7 @@
           <li>PNBody</li>
         </bodyDefBlackList>
         <debug>false</debug>
-      </li>
+      </li>-->
     </comps>
   </HediffDef>
 
