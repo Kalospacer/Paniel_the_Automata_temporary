@@ -59,6 +59,28 @@
                 <li>PN_AutomatonFuel</li>
             </value>
           </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AutomataRace.ThingDefInjectDef[defName="Comp_CorpseSelfDestruct_Inject"]/comps</xpath>
+            <value>
+              <li Class="AutomataRace.CompProperties_SelfResurrect">
+                <resurrectDelayTick>200</resurrectDelayTick>
+                <hediffCondition>DeathRefusal</hediffCondition>
+                <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+              </li>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AutomataRace.ThingDefInjectDef[defName="Comp_CorpseSelfDestruct_Inject"]/comps</xpath>
+            <value>
+              <li Class="AutomataRace.CompProperties_SelfResurrect">
+                <resurrectDelayTick>200</resurrectDelayTick>
+                <hediffCondition>DeathRefusalCreepJoiner</hediffCondition>
+                <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+              </li>
+            </value>
+          </li>
     
         </operations>
       </match>

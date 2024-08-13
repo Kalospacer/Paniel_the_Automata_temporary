@@ -105,6 +105,7 @@
           <li>WoundInfection</li>
           <li>Cirrhosis</li>
           <li>ResurrectionSickness</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">DeathRefusalSickness</li>
           <li>PsychiteAddiction</li>
           <li>YayoHigh</li>
           <li>PsychiteTolerance</li>

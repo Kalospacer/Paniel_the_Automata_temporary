@@ -104,12 +104,10 @@
 						<defName>Gourmand</defName>
 					  </li>
 					  <li>
-						<defName>Beauty</defName>
-						<degree>-1</degree>
+						<defName Degree="-1">Beauty</defName>
 					  </li>
 					  <li>
-						<defName>Beauty</defName>
-						<degree>-2</degree>
+						<defName Degree="-2">Beauty</defName>
 					  </li>
 					  <li>
 						<defName>Immunity</defName>
