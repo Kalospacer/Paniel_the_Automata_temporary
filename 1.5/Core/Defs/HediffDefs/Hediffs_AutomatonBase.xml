@@ -12,13 +12,6 @@
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
-    <disablesNeeds>
-      <li>Outdoors</li>
-      <li>DrugDesire</li>
-      <li>RoomSize</li>
-      <li>Comfort</li>
-      <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
-    </disablesNeeds>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
@@ -78,6 +71,13 @@
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <disablesNeeds>
+      <li>Outdoors</li>
+      <li>DrugDesire</li>
+      <li>RoomSize</li>
+      <li>Comfort</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+    </disablesNeeds>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
