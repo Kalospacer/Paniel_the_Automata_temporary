@@ -29,9 +29,12 @@
 				<forcedRaceTraitEntries>
 					<li>
 						<defName>Kind</defName>
-					  </li>
-					  <li>
+					</li>
+					<li>
 						<defName>Asexual</defName>
+					</li>
+					<li>
+						<defName>PerfectMemory</defName>
 					</li>
 				</forcedRaceTraitEntries>
 
@@ -60,12 +63,6 @@
 					  </li>
 					  <li>
 						<defName>DislikesWomen</defName>
-					  </li>
-					  <li>
-						<defName Degree="1">Xenophobia</defName>
-					  </li>
-					  <li>
-						<defName Degree="-1">Xenophobia</defName>
 					  </li>
 					  <li>
 						<defName>AnnoyingVoice</defName>
