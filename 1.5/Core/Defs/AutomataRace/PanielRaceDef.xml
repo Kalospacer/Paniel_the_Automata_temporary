@@ -62,6 +62,12 @@
 						<defName>DislikesWomen</defName>
 					  </li>
 					  <li>
+						<defName Degree="1">Xenophobia</defName>
+					  </li>
+					  <li>
+						<defName Degree="-1">Xenophobia</defName>
+					  </li>
+					  <li>
 						<defName>AnnoyingVoice</defName>
 					  </li>
 					  <li>
