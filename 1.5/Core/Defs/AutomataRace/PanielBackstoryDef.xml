@@ -16,6 +16,9 @@
 			<li>
 			  <defName>Asexual</defName>
 			</li>
+			<li>
+				<defName>PerfectMemory</defName>
+			</li>
 		  </forcedTraitsChance>
 		  <disallowedTraitsChance>
 			<li>
