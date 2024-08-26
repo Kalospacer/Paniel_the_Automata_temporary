@@ -16,7 +16,7 @@
 			<li>
 				<defName>Asexual</defName>
 			</li>
-			<li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
 				<defName>PerfectMemory</defName>
 			</li>
 		  </forcedTraitsChance>
