@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <PN_PerfectMemory.degreeDatas.auto_memories.label>自动记忆</PN_PerfectMemory.degreeDatas.auto_memories.label>
+  <PN_PerfectMemory.degreeDatas.auto_memories.description>[PAWN_nameDef]是姬关人形。姬关人形自动记忆系统记录{PAWN_pronoun}看到的一切，{PAWN_possessive}技能永远不会生疏。</PN_PerfectMemory.degreeDatas.auto_memories.description>
+
+</LanguageData>

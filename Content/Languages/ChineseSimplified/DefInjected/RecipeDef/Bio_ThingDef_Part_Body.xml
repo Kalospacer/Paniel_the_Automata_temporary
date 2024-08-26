@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<PN_InstallDetoxifierOilFilter.label>安装滤毒燃料过滤器</PN_InstallDetoxifierOilFilter.label>
+<PN_InstallDetoxifierOilFilter.description>安装滤毒燃料过滤器</PN_InstallDetoxifierOilFilter.description>
+<PN_InstallDetoxifierOilFilter.jobString>安装滤毒燃料过滤器中</PN_InstallDetoxifierOilFilter.jobString>
+<PN_RemoveDetoxifierOilFilter.label>移除滤毒燃料过滤器</PN_RemoveDetoxifierOilFilter.label>
+<PN_RemoveDetoxifierOilFilter.description>移除滤毒燃料过滤器</PN_RemoveDetoxifierOilFilter.description>
+<PN_RemoveDetoxifierOilFilter.jobString>移除滤毒燃料过滤器中</PN_RemoveDetoxifierOilFilter.jobString>
+
+</LanguageData>

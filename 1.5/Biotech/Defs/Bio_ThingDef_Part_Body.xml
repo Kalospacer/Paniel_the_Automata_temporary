@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef ParentName="PN_AddedBodyPartBase">
-    <defName>DetoxifierOilFilter</defName>
+    <defName>PN_DetoxifierOilFilter</defName>
     <label>detoxifier Oil Filter</label>
     <labelNoun>a detoxifier oil filter</labelNoun>
     <description>An advanced Oil Filter. Using PNL Industry technology, it can rapidly remove a vast range of toxins from the fuel, making it effective against environmental toxins, venoms, and injected poisons.</description>
@@ -25,7 +25,7 @@
   </HediffDef>
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
-    <defName>InstallDetoxifierOilFilter</defName>
+    <defName>PN_InstallDetoxifierOilFilter</defName>
     <label>install detoxifier Oil Filter</label>
     <description>Install a detoxifier oil filter.</description>
     <descriptionHyperlinks>
@@ -51,7 +51,20 @@
     <appliedOnFixedBodyParts>
       <li>PNKidney</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>DetoxifierOilFilter</addsHediff>
+    <addsHediff>PN_DetoxifierOilFilter</addsHediff>
     <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
   </RecipeDef>
+
+  <RecipeDef ParentName="PN_SurgeryRemoveImplantBase">
+    <defName>PN_RemoveDetoxifierOilFilter</defName>
+    <label>remove detoxifier Oil Filter</label>
+    <description>Remove detoxifier Oil Filter.</description>
+    <descriptionHyperlinks>
+      <ThingDef>DetoxifierKidney</ThingDef>
+      <HediffDef>PN_DetoxifierOilFilter</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing detoxifier Oil Filter.</jobString>
+    <removesHediff>PN_DetoxifierOilFilter</removesHediff>
+  </RecipeDef>
+
 </Defs>

@@ -33,8 +33,8 @@
 					<li>
 						<defName>Asexual</defName>
 					</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">
-						<defName>PerfectMemory</defName>
+					<li>
+						<defName>PN_PerfectMemory</defName>
 					</li>
 				</forcedRaceTraitEntries>
 
