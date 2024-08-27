@@ -6,6 +6,7 @@
     <value>
         <techHediffsRequired>
 			<li>PN_ExperimentalEngineCore</li>
+            <li>PN_AutoRepairSystem</li>
 		</techHediffsRequired>
     </value>
   </Operation>

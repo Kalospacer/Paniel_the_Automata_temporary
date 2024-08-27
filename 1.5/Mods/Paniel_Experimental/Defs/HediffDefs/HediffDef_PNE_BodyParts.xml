@@ -18,7 +18,7 @@
     <stages>
     </stages>
   </HediffDef>
-  
+
   <ThingDef ParentName="PN_BodyPartNormalBase">
     <defName>PN_ExperimentalEngineCore</defName>
     <label>automaton experimental engine core</label>
@@ -36,7 +36,7 @@
     </statBases>
     <recipeMaker>
     </recipeMaker>
-  </ThingDef> 
+  </ThingDef>
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallExperimentalEngineCore</defName>
@@ -76,4 +76,78 @@
     <jobString>Removing experimental engine core.</jobString>
     <removesHediff>PN_ExperimentalEngineCore</removesHediff>
   </RecipeDef>
+
+  <ThingDef ParentName="PN_BodyPartNormalBase">
+    <defName>PN_AutoRepairSystem</defName>
+    <label>automaton auto repair system</label>
+    <description>An automata auto repair system. allow automaton slowly repair damaged body part.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>PN_InstallAutoRepairSystem</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <PN_SelfRepairKit>1</PN_SelfRepairKit>
+    </costList>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+    <recipeMaker>
+    </recipeMaker>
+  </ThingDef>
+
+  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+    <defName>PN_InstallAutoRepairSystem</defName>
+    <label>install auto repair system</label>
+    <description>Install an auto repair system.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_AutoRepairSystem</ThingDef>
+      <HediffDef>PN_AutoRepairSystem</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing auto repair system.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_AutoRepairSystem</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>PNTorso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PN_AutoRepairSystem</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PN_SurgeryRemoveImplantBase">
+    <defName>PN_RemoveAutoRepairSystem</defName>
+    <label>remove auto repair system</label>
+    <description>Remove the auto repair system.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_AutoRepairSystem</ThingDef>
+      <HediffDef>PN_AutoRepairSystem</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing auto repair system.</jobString>
+    <removesHediff>PN_AutoRepairSystem</removesHediff>
+  </RecipeDef>
+
+  <HediffDef ParentName="PN_ImplantHediffBase">
+    <defName>PN_AutoRepairSystem</defName>
+    <label>auto repair system</label>
+    <description>An auto repair system. slowly repair damaged body part.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_AutoRepairSystem</ThingDef>
+    </descriptionHyperlinks>
+    <stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<regeneration>10</regeneration>
+				<showRegenerationStat>true</showRegenerationStat>
+			</li>
+    </stages>
+  </HediffDef>
+
 </Defs>
