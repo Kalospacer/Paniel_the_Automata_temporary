@@ -30,7 +30,7 @@
     <description>Install a detoxifier oil filter.</description>
     <descriptionHyperlinks>
       <ThingDef>DetoxifierKidney</ThingDef>
-      <HediffDef>DetoxifierOilFilter</HediffDef>
+      <HediffDef>PN_DetoxifierOilFilter</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing detoxifier oil filter.</jobString>
     <ingredients>
