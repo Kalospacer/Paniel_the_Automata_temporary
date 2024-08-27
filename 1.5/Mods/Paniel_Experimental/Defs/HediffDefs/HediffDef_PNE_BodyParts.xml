@@ -19,6 +19,9 @@
       <li>PN_Need_Fuel</li>
     </disablesNeeds>
     <stages>
+      <li>
+        <hungerRateFactorOffset>0.75</hungerRateFactorOffset>
+			</li>
     </stages>
   </HediffDef>
 
