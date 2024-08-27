@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef ParentName="PN_AddedBodyPartBase">
+    <defName>PN_ExperimentalEngineCore</defName>
+    <label>experimental engine core</label>
+    <labelNoun>a experimental engine core</labelNoun>
+    <description>An experimental engine core. allow automata to power without fuel. using this can be extrame dangerous.\n\n
+    
+    Warning: This implant cannot be safety removed after installation.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <disablesNeeds>
+      <li>PN_Need_Fuel</li>
+    </disablesNeeds>
+    <stages>
+    </stages>
+  </HediffDef>
+  
+  <ThingDef ParentName="PN_BodyPartNormalBase">
+    <defName>PN_ExperimentalEngineCore</defName>
+    <label>automaton experimental engine core</label>
+    <description>An experimental engine core. allow automata to power without fuel. using this can be extrame dangerous.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>PN_InstallExperimentalEngineCore</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <PN_BrainCasingAntigrain>1</PN_BrainCasingAntigrain>
+    </costList>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+    <recipeMaker>
+    </recipeMaker>
+  </ThingDef> 
+
+  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+    <defName>PN_InstallExperimentalEngineCore</defName>
+    <label>install experimental engine core</label>
+    <description>Install an experimental engine core.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ExperimentalEngineCore</ThingDef>
+      <HediffDef>PN_ExperimentalEngineCore</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing experimental engine core.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_ExperimentalEngineCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>PNCore</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PN_ExperimentalEngineCore</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PN_SurgeryRemoveImplantBase">
+    <defName>PN_RemoveExperimentalEngineCore</defName>
+    <label>remove experimental engine core</label>
+    <description>Remove the experimental engine core.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ExperimentalEngineCore</ThingDef>
+      <HediffDef>PN_ExperimentalEngineCore</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing experimental engine core.</jobString>
+    <removesHediff>PN_ExperimentalEngineCore</removesHediff>
+  </RecipeDef>
+</Defs>
