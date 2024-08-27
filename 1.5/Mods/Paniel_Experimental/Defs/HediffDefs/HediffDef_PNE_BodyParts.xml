@@ -7,6 +7,9 @@
     <description>An experimental engine core. allow automata to power without fuel. using this can be extrame dangerous.\n\n
     
     Warning: This implant cannot be safety removed after installation.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ExperimentalEngineCore</ThingDef>
+    </descriptionHyperlinks>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.1</partEfficiency>
