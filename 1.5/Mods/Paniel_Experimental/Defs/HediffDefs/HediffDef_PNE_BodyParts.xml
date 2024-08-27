@@ -29,6 +29,7 @@
     <costList>
       <ComponentIndustrial>1</ComponentIndustrial>
       <PN_BrainCasingAntigrain>1</PN_BrainCasingAntigrain>
+      <PN_AutomatonFuel>1000</PN_AutomatonFuel>
     </costList>
     <statBases>
       <Mass>0.3</Mass>

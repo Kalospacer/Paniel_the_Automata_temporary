@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName="PN_Testsubject"]</xpath>
+    <value>
+        <techHediffsRequired>
+			<li>PN_ExperimentalEngineCore</li>
+		</techHediffsRequired>
+    </value>
+  </Operation>
+
+</Patch>
