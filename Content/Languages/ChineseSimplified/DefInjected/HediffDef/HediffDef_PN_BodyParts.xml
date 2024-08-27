@@ -5,4 +5,8 @@
   <PN_DetoxifierOilFilter.description>一个已安装的燃料过滤器，能快速消除安装者燃料管路内的各种有毒物质。对环境毒素、毒液和注射型毒物都有效果。</PN_DetoxifierOilFilter.description>
   <PN_DetoxifierOilFilter.labelNoun>滤毒燃料过滤器</PN_DetoxifierOilFilter.labelNoun>
 
+  <PN_ExperimentalEngineCore.label>实验型动力核心</PN_ExperimentalEngineCore.label>
+  <PN_ExperimentalEngineCore.description>一个已安装的实验型动力核心，能驱动姬关人形而无需额外燃料消耗。可能伴随巨大潜在风险。</PN_ExperimentalEngineCore.description>
+  <PN_ExperimentalEngineCore.labelNoun>实验型动力核心</PN_ExperimentalEngineCore.labelNoun>
+
 </LanguageData>
